@@ -48,13 +48,17 @@ If a player, upon dropping a block, clears two or more rows simultaneously, a sp
 #### Levels: 
 **Level 0:** 
 Takes blocks in sequence from the files file1.txt (for player 1) and file2.txt (for player 2).
+
 **Level 1:**
 The block selector will randomly choose a block. Block S and Z are selected with probability 1/12 each, and the other blocks are selected with probability 1/6 each.
+
 **Level 2:**
 All blocks are selected with equal probability.
+
 **Level 3:**
 The block selector will randomly choose a block. Block S and Z are selected with probability 2/9 each, and the other blocks are selected with probability 1/9 each.
 Every command to move or rotate the block will be followed immediately and automatically by a downward move of one row.
+
 **Level 4:**
 In addition to the rules of Level 3, in Level 4, every time you place 5 blocks without clearing at least one row, a 1x1 block is dropped onto your game board in the centre column.
 
