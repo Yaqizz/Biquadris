@@ -1,12 +1,12 @@
 # Biquadris
 CS 246 Final Project
 
-## Introduction:
+## Introduction
 This is a two-player battle game called Biquadris, implemented in C++ and based on xquartz.  The game offers an exciting gameplay experience, requiring strategic thinking and quick decision-making.
 
 ![Alt Text](view.png)
 
-## Key Features:
+## Key Features
 
 **Two-player Battle:** Biquadris is designed for two players, allowing you to compete against your friends or challenge an AI opponent.
 
@@ -23,7 +23,7 @@ This is a two-player battle game called Biquadris, implemented in C++ and based 
 **High Cohesion and Low Coupling:** The Biquadris game follows the design principle of high cohesion and low coupling. 
 
 
-## Rules:
+## Rules
 #### All commands: 
 **reft:** move the current block to the left
 **right:** move the current block to the right
@@ -63,6 +63,6 @@ Every command to move or rotate the block will be followed immediately and autom
 In addition to the rules of Level 3, in Level 4, every time you place 5 blocks without clearing at least one row, a 1x1 block is dropped onto your game board in the centre column.
 
 
-## Getting Started:
+## Getting Started
 
 To get started with Biquadris, simply clone this repository and follow the instructions in the documentation.  Make sure you have the necessary dependencies, including XQuartz, set up on your system.
