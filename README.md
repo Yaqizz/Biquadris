@@ -21,6 +21,8 @@ This is a two-player battle game called Biquadris, implemented in C++ and based 
 
 **High Cohesion and Low Coupling:** The Biquadris game follows the design principle of high cohesion and low coupling. 
 
+![Alt Text](play.png)
+
 
 ## Rules
 #### All commands: 
