@@ -1,5 +1,4 @@
 # Biquadris
-CS 246 Final Project
 
 ## Introduction
 This is a two-player battle game called Biquadris, implemented in C++ and based on xquartz.  The game offers an exciting gameplay experience, requiring strategic thinking and quick decision-making.
