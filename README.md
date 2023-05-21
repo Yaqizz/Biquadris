@@ -26,24 +26,39 @@ This is a two-player battle game called Biquadris, implemented in C++ and based 
 ## Rules
 #### All commands: 
 **reft:** move the current block to the left
+
 **right:** move the current block to the right
+
 **down:** move the current block downward
+
 **drop:** drop the current block
+
 **clockwise:** rotates the block 90 degrees clockwise
+
 **counterclockwise:** rotates the block 90 degrees counterclockwise
+
 **levelup:** increases the current level by one
+
 **leveldown:** decreases the current level by one
+
 **norandom file:** in levels 3 and 4, taking input from the sequence file
+
 **random file:** in levels 3 and 4, taking input randomly
+
 **sequence file:** executes the sequence of commands in file
+
 **I, J, L, O, S, Z, T:** changes the current undropped block
+
 **restart:** clears the board and starts a new game
 
 #### Special actions: 
 If a player, upon dropping a block, clears two or more rows simultaneously, a special action is triggered.
-**blind:** let the opponent’s board, from columns 3-9, and from rows 3-12, is covered with question marks (?), until the player drops a block
-**heavy:** every time a player moves a block left or right, the block automatically falls by two rows
-**force block:** change the opponent’s current block to block
+
+**blind:** let the opponent’s board, from columns 3-9, and from rows 3-12, is covered with question marks (?), until the player drops a block.
+
+**heavy:** every time a player moves a block left or right, the block automatically falls by two rows.
+
+**force block:** change the opponent’s current block to block.
 
 #### Levels: 
 **Level 0:** 
